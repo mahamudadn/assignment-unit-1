@@ -1,11 +1,121 @@
 /* Give your page a fun background color */
+body {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    font-size: medium;
+    height: 1000px;
+    margin: 10px 40px;
+}
 
 /* Make the header and footer a different color from the background */
 
+.header{
+    background-color: darkorchid;
+    color: floralwhite;
+    height: 120px;
+    padding-top: 10px 40px;
+    margin-right: 10px;
+    border-bottom: 3px solid black;  
+    z-index: 999;
+    position: fixed;
+    display: inline-block;
+    width: 95%;
+    opacity: 0.9;
+}
+
+.header a {
+    box-sizing: border-box;
+    float: right;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 1px 40px;
+       
+ }
+
 /* Align the h1 containing your name in the center of the header*/
+
+h1{
+    text-align: center;
+    padding-top: 0rem;
+    font-family: tahoma;
+    font-weight: 400;
+}
+
+span{
+    color: blue;
+    font-size: larger;
+    font-style: oblique;
+    font-size: 40px;
+    text-decoration: double;
+}
 
 /* Make your p tag a different color and italic */
 
+p{
+    color: whitesmoke;
+    font: italic;
+}
+
 /* Put a border around your image */
 
+img{
+    width: 25%;
+    height: 500px;
+    margin-top: 140px;
+    align-content: center;
+    border-radius: 25%;
+    border: #2176FF;
+   
+}
+
+figcaption{
+    background-color: rgb(48, 163, 212);
+    width: 25%;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: left;
+}
+
 /* Change the font-family of your list */
+
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:5px 20px; 
+    margin: 10px 40px;
+}
+.more{
+background-color: #2176FF;
+  border-radius: 20%;
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding:  1rem 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* Make the header and footer a different color from the background */
+
+.footer{
+    background-color: #2176FF;
+    text-align:left;
+    margin: 150px 20px;
+    
+}
+
+.footer p {
+    background-color: #2176FF;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
