@@ -10,7 +10,7 @@ body {
 /* Make the header and footer a different color from the background */
 
 .header{
-    background-color: darkorchid;
+    background-color: rgb(144, 69, 182);
     color: floralwhite;
     height: 120px;
     padding-top: 10px 40px;
@@ -20,7 +20,7 @@ body {
     position: fixed;
     display: inline-block;
     width: 95%;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .header a {
