@@ -57,7 +57,7 @@ span{
 
 p{
     color: whitesmoke;
-    font: italic;
+    font-family: monospace;
 }
 
 /* Put a border around your image */
