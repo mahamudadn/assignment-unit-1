@@ -34,7 +34,7 @@ to know how many unsaved or modivied you have
 
 # 9 - What does the command 'git add .' do?
 
-it will save all the eddited or modified files
+it will save all the eddited or modified files.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
 
